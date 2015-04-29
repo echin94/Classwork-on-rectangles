@@ -22,13 +22,15 @@ public class Classwork {
         Rectangle rect2 = rect1;
         
         rect2.setLength(5);
-        rect1.setWidth(-100);
+        rect1.setWidth(100);
         
         
         System.out.println(rect1.getLength()); //printed 5.0
         System.out.println(rect2.getLength()); //should print 5.0
-        System.out.println(rect1.getWidth()); // prints 100.0
-        
+        System.out.println(rect1.getWidth()); // prints 0.0
+        System.out.println("The area of the rectangle is as follows: ");
+        System.out.println(rect1.getArea());
+
         
         int width = 0;
         System.out.println(width); //prints 0

@@ -25,7 +25,7 @@ public class Rectangle {
 
     /**
      * Returns the length of this rectangle.
-     * @return The length of this rectangle/
+     * @return The length of this rectangle.
      */
     public double getLength() {
         return length;
@@ -36,6 +36,7 @@ public class Rectangle {
      * @param length the length to set
      */
     public void setLength(double length) {
+      if  (length >= 0)
         this.length = length;
     }
 
@@ -51,7 +52,16 @@ public class Rectangle {
      * @param width the width to set
      */
     public void setWidth(double width) {
+      if  (width >= 0)
         this.width = width;
+    }
+    
+    /**
+     * Returns the calculated area of this rectangle.
+     * @return the area of the rectangle.
+     */
+    public double getArea() {
+        return this.length * this.width;
     }
     
 }
