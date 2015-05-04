@@ -11,11 +11,16 @@ package cst1201;
  * @author class
  */
 public class Rectangle {
-    
-    
+
     /**
      * The length of this rectangle. 
      */
+    //public Rectangle(double length, double width) {
+    //    this.length = length;
+    //   this.width = width;
+    //}
+
+   
     private double length;
     
     /**
