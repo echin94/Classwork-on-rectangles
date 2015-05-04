@@ -44,6 +44,9 @@ public class Classwork {
 
         String combined = add("Hello", " there");
         System.out.println("The combined string is: " + combined);
+        
+        int sum = add(5, 2);
+        System.out.println("The sum is: " + sum);
 
     }
 
